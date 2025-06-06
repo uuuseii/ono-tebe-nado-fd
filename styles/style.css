@@ -1,1 +1,76 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__menu {
+
+}
+.menu {
+  
+}
+.menu__list {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  list-style: none;
+}
+.menu__item {
+  
+}
+
+.menu__item-active .menu__link {
+  text-decoration: none;
+}
+
+.menu__circle {
+
+  height: 6px;
+  width: 6px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+}
+.header__logo {
+  display: block;
+  width: 148px;
+}
+.header__logo-image {
+  width: 100%;
+}
+.header__address {
+  max-width: 240px;
+}
+.address { }
+.cover { }
+.cover__title { }
+.accent-span { }
+.text-center { }
+.text-right { }
+.description { }
+.cover__button { }
+.cover__image { }
+.lots { }
+.lots__title { }
+.lots__card-list { }
+.lots__card { }
+.card { }
+.card__content { }
+.card__title { }
+.card__text { }
+.card__image { }
+.lots__button { }
+.about { }
+.about__row-logo { }
+.about__logo { }
+.about__logo-image { }
+.about__row-description { }
+.about__title { }
+.about__text { }
+.footer { }
+.footer__address { }
+.footer__menu { }
+.footer__links { }
+.links { }
+.links__logo { }
