@@ -134,8 +134,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
-  width: 100%;
+  justify-content: space-between;
   margin: 0 25px;
   list-style: none;
 }
@@ -242,6 +241,7 @@
 }
 
 .about__text {
+  max-width: 670px;
   font-size: 20px;
 }
 
