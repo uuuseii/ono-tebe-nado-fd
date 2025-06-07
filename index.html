@@ -34,8 +34,8 @@
         />
       </a>
       <address class="header__address address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
@@ -46,93 +46,85 @@
           <span class="accent-span text-center">тебе</span>
           <span class="accent-span text-right">надо</span>
         </h1>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
+        <div class="cover__description">
+          <p class="cover__letter-spacing-extended">Аукцион вещей, в которые никто не верил</p>
           <button class="cover__button">Сделать ставку</button>
         </div>
-        <img 
-          class="cover__image"
-          src="./images/cover.jpg"
-          alt="Цветочный абстрактный фон"
-          >
+        <div class="overlay"></div>
       </section>
       <section class="lots">
         <h2 class="lots__title">Лоты</h2>
         <ul class="lots__card-list">
-          <li>
-            <a href="#">
+          <li class="lots__card-list-item card_type_film">
+            <a href="#" class="lots__card-link">
               <article class="lots__card card">
                 <div class="card__content">
-                  <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                  <div>
+                    <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                  </div>
                   <div class="card__text">
                     <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
                       если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                     </p>
                   </div>
                 </div>
-                <img
-                  class="card__image"
-                  src="./images/card-lot-01.jpg"
-                  alt="Человек расчёсывает волосы, глядя в зеркало на улице. На фоне — зелёные кусты и размытые деревья"
-                  >
               </article>
             </a>
+            <div class="overlay"></div>
           </li>
-          <li>
-            <a href="#">
+          <li class="lots__card-list-item card_type_book">
+            <a href="#" class="lots__card-link">
               <article class="lots__card card">
                 <div class="card__content">
-                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <div>
+                    <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  </div>
                   <div class="card__text">
                     <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
                       В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён.
                       И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                     </p>
                   </div>
-                  <img
-                  class="card__image"
-                  src="./images/card-lot-02.jpg"
-                  alt="Обложка книги 'Улисс' Джеймса Джойса с изображением львиного дверного кольца на тёмно-красной двери"
-                  >
                 </div>
               </article>
             </a>
+            <div class="overlay"></div>
           </li>
-          <li>
-            <a href="#">
+          <li class="lots__card-list-item card_type_picture">
+            <a href="#" class="lots__card-link">
               <article class="lots__card card">
                 <div class="card__content">
-                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <div>
+                    <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  </div>
                   <div class="card__text">
                     <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
                       Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
                     </p>
                   </div>
-                  <img
-                  class="card__image"
-                  src="./images/card-lot-03.jpg"
-                  alt="Абстрактная геометрическая картина с цветными фигурами на жёлтом фоне"
-                  >
                 </div>
               </article>
             </a>
+            <div class="overlay"></div>
           </li>
         </ul>
-        <a href="#" class="lots__button">посмотреть больше</a>
+        <div class="lots__look-more">
+          <a href="#" class="lots__look-more-link">посмотреть больше</a>
+        </div>
       </section>
       <section class="about">
-        <div class="about__row-logo">
+        <div class="about__column-logo">
           <div class="about__logo">
             <img 
             class="about__logo-image"
             src="./images/logo-white.svg" 
             alt="Логотип проекта"
-            >
+            > 
           </div>
         </div>
-        <div class="about__row-description">
+        <div class="about__column-description">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
+          <p class="about__text about__text-spacing-extended">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион.
             Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
           </p>
           <p class="about__text">
@@ -145,13 +137,13 @@
     </main>
     <footer class="footer">
       <address class="footer__address address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu menu">
         <ul class="menu__list">
-          <li class="menu__item">
+          <li class="menu__item menu__item-active">
             <a class="menu__link">главная</a>
           </li>
           <li class="menu__item">
@@ -166,6 +158,7 @@
         <li>
           <a class="links__logo" href="#">
             <img
+              class="links__logo-icon"
               src="./images/yt.svg"
               alt="Логотип ютуба"
               >
@@ -174,6 +167,7 @@
         <li>
           <a class="links__logo" href="#">
             <img
+              class="links__logo-icon"
               src="./images/vk.svg"
               alt="Логотип вконтакте"
               >
@@ -182,6 +176,7 @@
         <li>
           <a class="links__logo" href="#">
             <img
+              class="links__logo-icon"
               src="./images/pinterest.svg"
               alt="Логотип пинтерест"
               >
